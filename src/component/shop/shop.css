@@ -1,0 +1,64 @@
+.spring {
+  background-image: url(../../assets/img/spring.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  padding: 2rem;
+  background-color: rgb(218, 218, 218);
+  height: 40vh;
+  width: 34%;
+}
+
+.minimalis {
+  background-image: url(../../assets/img/minimalis.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  padding: 2rem;
+  background-color: rgb(236, 234, 234);
+  height: 40vh;
+  width: 34%;
+}
+
+.kacamata {
+  background-image: url(../../assets/img/kacamata.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  padding: 2rem;
+  background-color: rgb(212, 212, 212);
+  height: 40vh;
+  width: 34%;
+}
+
+.spring:hover {
+  opacity: 0.9;
+}
+
+.minimalis:hover {
+  opacity: 0.9;
+}
+
+.kacamata:hover {
+  opacity: 0.9;
+}
+
+.text-content h3 a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .spring {
+    width: 100%;
+  }
+
+  .minimalis {
+    width: 100%;
+  }
+
+  .kacamata {
+    width: 100%;
+  }
+}
