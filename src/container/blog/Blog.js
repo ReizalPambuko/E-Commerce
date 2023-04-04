@@ -21,7 +21,7 @@ const Blog = () => {
               </button>
             </div>
 
-            <div className="max-sm:my-10">
+            <div className="max-sm:my-10 mx-3">
               <img src={IMG1} alt="" className="w-[100%]" />
               <h3 className="font-medium text-xl mt-4">Belajar ngoding CSS</h3>
               <button className="underline underline-offset-1 mt-4">
